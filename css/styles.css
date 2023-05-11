@@ -618,6 +618,9 @@ letter-spacing: 0.02em;
 /*modal windos*/
 .backdrop{
   position: fixed;
+  
+pointer-events: none;
+
   top: 0;
   left: 0;
   width: 100%;
@@ -625,11 +628,15 @@ letter-spacing: 0.02em;
   background: rgba(46, 47, 66, 0.4);
 
 }
+.backdrop.is-hidden{
+  opacity: 0.5;
+  pointer-events: none;
+}
 .modal{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50% -50%);
+  transform: translate(-50% ,-50%);
 
 
 
