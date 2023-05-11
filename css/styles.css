@@ -145,6 +145,14 @@ border-bottom: 1px solid #e7e9fc;
 .site-address .link:focus {
   color: var(--accent-ocean-color);
 }
+.link.spc{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  
+  }
 
 /* sektion hero */
 .button.primary:hover,
@@ -211,7 +219,7 @@ border-bottom: 1px solid #e7e9fc;
   
   width: 264px;
   height: 112px;
-  outline: 1px solid red;
+  
 
 
   justify-content: center;
@@ -380,12 +388,12 @@ img {
 }
 .clt:hover{
 color: #404bbf;
-border-color: #404bbf;
+background-color: #404bbf;
 
 }  
 .clt:focus{
   color: #404bbf;
-  border-color: #404bbf;
+  background-color: #404bbf;
 
 }
 .clts{
@@ -434,7 +442,7 @@ border-color: #404bbf;
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 156px;
+  
   display: flex;
   gap: 120px;
 }
@@ -448,8 +456,14 @@ border-color: #404bbf;
 .footer-text {
   width: 264px;
   margin-top: 0px;
-  margin-bottom: 16px;
+
   color:var(--accent-cloud-color);
+}
+.footer-logo{
+  margin-bottom: 17.5px;
+}
+.footer-text{
+  margin-bottom: 0;
 }
 .soc{
 fill: var(--accent-cloud-color);
@@ -470,7 +484,9 @@ fill: var(--accent-cloud-color);
  margin-top: 0;
  color:var(--primary-white-color);
 }
-
+.footer-soc.list{
+  margin: 0;
+}
 /* страница portfolio */
 .overlay{
   opacity: 1;
@@ -531,7 +547,7 @@ letter-spacing: 0.02em;
 .list.buttons {
   gap: 24px;
   justify-content: center;
-  margin-top: 96px;
+  
   margin-bottom: 72px;
   padding-left: 0;
 }
