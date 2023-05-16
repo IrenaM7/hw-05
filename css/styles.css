@@ -523,7 +523,8 @@ fill: var(--accent-cloud-color);
   transition: transform 250ms var(--trans--);
  
 }
-.s-li.port:hover .overlay{ 
+.link.prt:hover .overlay,
+.link.prt:focus{ 
   transform: translateY(0);
   
  
