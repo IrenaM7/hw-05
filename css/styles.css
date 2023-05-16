@@ -532,26 +532,30 @@ fill: var(--accent-cloud-color);
   overflow: hidden;
 }
 .overlay-text{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:var(--accent-cloud-color);
+  
+  height: 100%;
+  width: 100%;
+
+  
+
+
   padding: 40px 32px;
   margin: 0;
   
 
- 
-color: var(--accent-cloud-color);
-
 display: flex;
-content: "";
 align-items: center;
 
 
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-
-letter-spacing: 0.02em;
 }
 .link.prt{
   display: block;
@@ -598,10 +602,7 @@ letter-spacing: 0.02em;
 
  
 }
-.si-li{
-  transition: color var(--trans--),background-color var(--trans--),
-  box-shadow var(--trans--),border-color var(--trans--)
-}
+
 
 .port-button {
   border-radius: 4px;
@@ -617,11 +618,14 @@ letter-spacing: 0.02em;
   letter-spacing: 0.04em;
   cursor: pointer;
 
+  transition: color var(--trans--),background-color var(--trans--),
+  box-shadow var(--trans--),border-color var(--trans--);
+
   
 }
 .port-button:hover,
 .port-button:focus {
-  border: 1px solid transparent;
+  border-color: 1px solid transparent;
   color: var(--primary-white-color);
   background-color: var(--accent-ocean-color);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
