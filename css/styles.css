@@ -722,6 +722,7 @@ transition: background-color var(--trans--),border var(--trans--)
 .modal-close-btn:focus{
   background-color: var(--accent-ocean-color);
   border: none;
+  fill: #fff;
 }
 .modal-close-ikon{
   padding: 0;
@@ -732,8 +733,4 @@ transition: background-color var(--trans--),border var(--trans--)
   transition: fill var(--trans--);
   
 
-}
-.modal-close-ikon:hover,
-.modal-close-ikon:focus{
-  fill:#fff ;
 }
