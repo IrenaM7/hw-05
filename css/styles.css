@@ -701,10 +701,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 
-transition: background-color var(--trans--),border var(--trans--),
-
-
-
+transition: background-color var(--trans--),
+border var(--trans--);
 
 }
 .modal-close-btn:hover,
