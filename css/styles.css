@@ -693,7 +693,7 @@ cursor: pointer;
 background-color: #E7E9FC;
 border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 50%;
-color:red;
+color:var(--title-text-color);
 
 
 
@@ -710,7 +710,7 @@ border var(--trans--);
 .modal-close-btn:focus{
   background-color: var(--accent-ocean-color);
   border: none;
-  color:var(--primary-white-color);
+  fill:var(--primary-white-color);
 }
 .modal-close-ikon{
   padding: 0;
