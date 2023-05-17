@@ -508,19 +508,6 @@ fill: var(--accent-cloud-color);
   margin: 0;
 }
 /* страница portfolio */
-.overlay{
-  display: flex;
-  position: absolute;
-  top:0;
-  left: 0;
- 
- height: 100%;
- width: 100%;
-  
- 
-  
-
-}
 .prt:hover .overlay-text,
 .prt:focus .overlay-text{ 
   transform: translateY(0%); 
@@ -528,17 +515,13 @@ fill: var(--accent-cloud-color);
 }
 .thumb{
   position: relative;
-  overflow: hidden;
-  
-  
- 
+  overflow: hidden; 
 }
 .overlay-text{
   position: absolute;
   display: flex;
   top: 0;
   left: 0;
-
 
   font-size: 16px;
   line-height: 1.5;
@@ -718,7 +701,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 
-transition: background-color var(--trans--),border var(--trans--)
+transition: background-color var(--trans--),border var(--trans--),
+
 
 
 
