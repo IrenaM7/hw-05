@@ -573,17 +573,10 @@ fill: var(--accent-cloud-color);
   padding-left: 0;
 }
 
-
 .s-li.port {
   width: calc((100% - 48px) / 3);
-  
-  
-
-
-
  
 }
-
 
 .port-button {
   border-radius: 4px;
@@ -681,21 +674,17 @@ box-shadow:  0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0
 
 }
 .modal-close-btn{
-  height: 24px;
+height: 24px;
 width: 24px;
 top: 24px;
 right: 24px;
 padding: 0;
 cursor: pointer;
 
-
-
 background-color: #E7E9FC;
 border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 50%;
 color:var(--title-text-color);
-
-
 
 position: absolute;
 display: flex;
@@ -710,16 +699,14 @@ border var(--trans--);
 .modal-close-btn:focus{
   background-color: var(--accent-ocean-color);
   border: none;
-  fill:var(--primary-white-color);
+ color :var(--primary-white-color);
 }
-.modal-close-ikon{
+.modal-close-icon{
   padding: 0;
   display: flex;
 
-  fill: currentColor;
+  fill:currentColor;
   
-
   transition: fill var(--trans--);
-  
 
 }
