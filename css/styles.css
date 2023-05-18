@@ -535,7 +535,7 @@ fill: var(--accent-cloud-color);
   padding: 40px 32px;
   
   transform: translateY(100%);
-  transition: transform 250ms var(--trans--);
+  transition: transform  var(--trans--);
 
 }
 .link.prt{
